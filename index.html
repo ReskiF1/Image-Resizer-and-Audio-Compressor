@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Resizer | Reski Firmansyah</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- OPEN NAVBAR -->
+    <div class="Container-navbar">
+      <!-- OPEN UL NAVBAR -->
+      <ul class="ul-navbar">
+        <!-- OPEN LI -->
+        <li class="li-navbar">
+          <a href="index.html" class="a-navbar"> Image Resizer </a>
+        </li>
+        <li class="li-navbar">
+          <a href="Audio Compressor/index.html" class="a-navbar">
+            Audio Compressor
+          </a>
+        </li>
+        <!-- CLOSE LI -->
+      </ul>
+      <!-- CLOSE UL NAVBAR -->
+    </div>
+    <!-- CLOSE NAVBAR -->
+    <div class="wrapper">
+      <div class="upload-box">
+        <input type="file" accept="Image/*" hidden />
+        <img src="../icons8-upload-to-cloud-50.png" alt="" />
+        <p>Browser File to Upload</p>
+      </div>
+      <div class="content">
+        <div class="row sizes">
+          <div class="column width">
+            <label>Width</label>
+            <input type="number" min="0" />
+          </div>
+          <div class="column height">
+            <label>Height</label>
+            <input type="number" min="0" />
+          </div>
+        </div>
+        <div class="row checkboxes">
+          <div class="column ratio">
+            <input type="checkbox" id="ratio" checked />
+            <label for="ratio">Lock aspect ratio</label>
+          </div>
+          <div class="column quality">
+            <input type="checkbox" id="quality" />
+            <label for="quality">Reduce quality</label>
+          </div>
+        </div>
+        <button class="download-btn">Download Image</button>
+      </div>
+    </div>
+    <!-- OPEN FOOTER -->
+    <div class="container-footer">
+      <h3 class="h3-footer">Dibuat oleh: Reski Firmansyah (1217050119)</h3>
+      <p class="footer">
+        Untuk memenuhi tugas Mata Kuliah Praktikum Sistem Multimedia | 2024
+      </p>
+    </div>
+    <!-- CLOSE FOOTER -->
+  </body>
+</html>
